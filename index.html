@@ -1,0 +1,259 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+<!--- ===== PRELOADER =====-->
+
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+<style type="text/css">
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
+</style>
+
+   <script>
+      $(document).ready(function(){
+      $(".preloader").fadeOut();
+                              })
+   </script>
+
+
+
+    <title>Portfolio website - Vitto</title>
+  </head>
+     <!--===== PRELOADER =====-->
+       <div class="preloader">
+       <div class="loading">
+        <img src="3d5ee631df9ec4a18ba67237cdfff87e31b8e20acc6ebafcf85a0d55384c3c1f.0.gif" width="80">
+       <p>Bentar Yaa... </p>
+       </div>
+      </div>
+  <body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Mardo Ika Victory</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I am <span class="home__title-color">Mardo Ika Victory</span>a<br/>
+            Junior Programmer
+          </h1>
+        </div>
+
+        <div class="home__social">
+          <a href="https://instagram.com/mardo_ika_victory"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Thanos-Kun"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <!-- <img src="assets/img/prof1.jpeg" alt="" /> -->
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/prof1.jpeg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Mardo Ika Victory</h2>
+            <p class="about__text">
+              I am a junior programmer, I was born in Jambi. Being a software engineer and Web Developer is my
+              dream. Currently, I am focused on learning programming languages
+              to achieve my desired goals.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">My Skills</h2>
+            <p class="skills__text">
+              Of course, to achieve this goal, I have skills that I will
+              continue to develop so that my dreams can be fulfilled.
+              I am not pro,but i want to be a professional programmmer.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">HTML</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+            </div>
+            
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__bar skills__js"></div>   
+            </div>
+            
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">Java</span>
+              </div>
+              
+              <div class="skills__bar skills__ux"></div>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/work.png" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+         
+          <span class="on_progress"> ON PROGRESS </span>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form method="POST" class="contact__form" id="contact-form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="contact__input"
+              id="name"
+              name="name"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="contact__input"
+              id="email"
+              name="email"
+            />
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Pesan..."
+              id="message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="submit" value="Send" class="contact__button button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Vectorism</p>
+      <div class="footer__social">
+        <a href="https://instagram.com/mardo_ika_victory" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/Vectorism05" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>
