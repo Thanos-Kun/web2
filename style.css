@@ -1,0 +1,12 @@
+* {
+   margin : 10;
+   padding :10;
+  }
+
+body {
+  background-color: powderblue;
+  color: blue;
+}
+p {
+  color: red;
+}
